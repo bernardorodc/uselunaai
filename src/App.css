@@ -152,7 +152,7 @@
 }
 
 .hero-section {
-  @apply py-16 md:py-28;
+  @apply py-10 md:py-14; /* Ajuste estes valores conforme necessário */
 }
 
 .pricing-card {

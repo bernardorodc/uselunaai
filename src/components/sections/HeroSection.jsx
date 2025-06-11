@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="container mx-auto">
         {/* Faixa de autoridade - Ajustado o espaçamento vertical */}
         <motion.div 
-          className="flex justify-center items-center gap-4 md:gap-8 pt-1 pb-3 mb-4 text-sm md:text-base text-gray-700"
+          className="flex justify-center items-center gap-4 md:gap-8 pt-0 pb-6 mb-2 text-sm md:text-base text-gray-700"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -88,11 +88,16 @@ const HeroSection = () => {
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full"></div>
               <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-primary/5 rounded-full"></div>
               <div className="relative z-10 bg-white p-4 rounded-2xl shadow-xl">
-                <img 
-                  src="https://placehold.co/600x400/f5f5f5/3b3b46?text=Luna+AI+Dashboard" 
-                  alt="Luna AI Dashboard" 
-                  className="rounded-xl w-full"
-                />
+               <iframe
+                 width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/ugkvjeiHQdw"
+                title="VSL Luna AI"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-xl"
+              />
               </div>
             </div>
           </motion.div>

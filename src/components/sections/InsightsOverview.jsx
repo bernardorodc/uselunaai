@@ -14,28 +14,28 @@ const InsightsOverview = () => {
   
   const insights = [
     {
-      id: 'gastos',
+      id: 'analise',
       icon: <BarChart3 size={24} />,
       title: 'Análise de Gastos',
-      description: 'Visualize seus gastos por categoria, período e estabelecimento.'
+      description: 'Relatório de gastos diários, semanais e mensais.'
     },
     {
-      id: 'previsoes',
+      id: 'organizacao',
       icon: <TrendingUp size={24} />,
-      title: 'Previsões',
-      description: 'Projeções inteligentes baseadas no seu histórico financeiro.'
+      title: 'Organização',
+      description: 'Organização Inteligente por Categorias.'
     },
     {
-      id: 'metas',
+      id: 'dashboard',
       icon: <Target size={24} />,
-      title: 'Metas Financeiras',
-      description: 'Defina objetivos e acompanhe seu progresso em tempo real.'
+      title: 'Dashboard',
+      description: 'Visão geral das suas finanças, com receitas, despesas e saldo atual em tempo real.'
     },
     {
-      id: 'alertas',
+      id: 'transacoes',
       icon: <Bell size={24} />,
-      title: 'Alertas Inteligentes',
-      description: 'Receba notificações sobre gastos excessivos ou oportunidades.'
+      title: 'transacoes',
+      description: '"Gerencie todas as entradas e saídas com filtros rápidos e controle total das suas transações.'
     },
     {
       id: 'recomendacoes',
@@ -47,7 +47,7 @@ const InsightsOverview = () => {
       id: 'temporal',
       icon: <Clock size={24} />,
       title: 'Análise Temporal',
-      description: 'Compare seu desempenho financeiro ao longo do tempo.'
+      description: 'Exportação em PDF com 1 clique.'
     }
   ];
 
@@ -57,8 +57,11 @@ const InsightsOverview = () => {
         <h4 className="text-xl font-bold mb-4">Análise de Gastos</h4>
         <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
           <div className="text-center">
-            <BarChart3 size={48} className="mx-auto mb-2 text-primary" />
-            <p className="text-gray-500">Gráfico de análise de gastos por categoria</p>
+            <img 
+              src="https://i.postimg.cc/6q93FPVM/Screenshot-2025-06-10-at-14-08-17.png" 
+              alt="Gráfico de Gastos" 
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         </div>
         <p className="mt-4 text-gray-600">
@@ -68,25 +71,32 @@ const InsightsOverview = () => {
     ),
     previsoes: (
       <div className="bg-white p-6 rounded-xl shadow-md">
-        <h4 className="text-xl font-bold mb-4">Previsões Financeiras</h4>
+        <h4 className="text-xl font-bold mb-4">Organização por Categorias</h4>
         <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
           <div className="text-center">
-            <TrendingUp size={48} className="mx-auto mb-2 text-primary" />
-            <p className="text-gray-500">Gráfico de projeções financeiras</p>
+           <img 
+              src="https://i.postimg.cc/bNzX2tRc/Screenshot-2025-06-10-at-14-22-40.png" 
+              alt="Gráfico de Gastos" 
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         </div>
         <p className="mt-4 text-gray-600">
-          Projeções inteligentes de gastos e receitas baseadas no seu histórico, ajudando a planejar os próximos meses.
+          Visualize seus gastos divididos por categorias.
+
         </p>
       </div>
     ),
     metas: (
       <div className="bg-white p-6 rounded-xl shadow-md">
-        <h4 className="text-xl font-bold mb-4">Metas Financeiras</h4>
+        <h4 className="text-xl font-bold mb-4">Dashboard</h4>
         <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
           <div className="text-center">
-            <Target size={48} className="mx-auto mb-2 text-primary" />
-            <p className="text-gray-500">Visualização de metas e progresso</p>
+            <img 
+              src="https://i.postimg.cc/HLj8WnNb/Screenshot-2025-06-10-at-14-29-31.png" 
+              alt="Gráfico de Gastos" 
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         </div>
         <p className="mt-4 text-gray-600">
@@ -96,11 +106,14 @@ const InsightsOverview = () => {
     ),
     alertas: (
       <div className="bg-white p-6 rounded-xl shadow-md">
-        <h4 className="text-xl font-bold mb-4">Alertas Inteligentes</h4>
+        <h4 className="text-xl font-bold mb-4">Transações</h4>
         <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
           <div className="text-center">
-            <Bell size={48} className="mx-auto mb-2 text-primary" />
-            <p className="text-gray-500">Sistema de alertas e notificações</p>
+            <img 
+              src="" 
+              alt="Gráfico de Gastos" 
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         </div>
         <p className="mt-4 text-gray-600">

@@ -7,7 +7,6 @@ import FeatureHighlights from './components/sections/FeatureHighlights'
 import SocialProofStats from './components/sections/SocialProofStats'
 import HowItWorks from './components/sections/HowItWorks'
 import InputTypes from './components/sections/InputTypes'
-import InsightsOverview from './components/sections/InsightsOverview'
 import DashboardShowcase from './components/sections/DashboardShowcase'
 import PricingSection from './components/sections/PricingSection'
 import TestimonialsBlock from './components/sections/TestimonialsBlock'
@@ -48,7 +47,6 @@ function App() {
         <FeatureHighlights />
         <HowItWorks />
         <InputTypes />
-        <InsightsOverview />
         <DashboardShowcase />
         <TestimonialsBlock />
         <PricingSection />

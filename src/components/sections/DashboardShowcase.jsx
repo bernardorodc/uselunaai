@@ -103,7 +103,7 @@ const DashboardShowcase = () => {
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/5 rounded-full"></div>
               <div className="relative z-10 bg-white p-4 rounded-2xl shadow-xl border border-gray-200">
                 <img 
-                  src="https://placehold.co/800x500/f5f5f5/3b3b46?text=Dashboard+Luna+AI" 
+                  src="https://i.postimg.cc/630HNbYL/Screenshot-2025-06-10-at-14-29-31.png" 
                   alt="Luna AI Dashboard" 
                   className="rounded-xl w-full"
                 />

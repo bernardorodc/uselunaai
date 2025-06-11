@@ -24,8 +24,8 @@ const InputTypes = () => {
     },
     {
       icon: <FileText size={32} className="text-primary" />,
-      title: 'PDF ou CSV',
-      description: 'Importe extratos bancários em formato PDF ou CSV.',
+      title: 'PDF',
+      description: 'Importe extratos bancários.',
       emoji: '📄'
     }
   ];
@@ -50,7 +50,7 @@ const InputTypes = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            A Luna AI aceita diversos formatos para facilitar seu dia a dia
+            A Luna AI entende diversos formatos de mensagens e intenções, para facilitar ainda mais o seu dia a dia.
           </motion.p>
         </div>
 
@@ -97,15 +97,15 @@ const InputTypes = () => {
               
               <div className="space-y-4">
                 <div className="bg-primary/10 rounded-lg p-3 max-w-[80%]">
-                  <p className="text-sm">Como posso ajudar com suas finanças hoje?</p>
+                  <p className="text-sm">Oie, bom dia! Como posso ajudar hoje?</p>
                 </div>
                 
                 <div className="bg-gray-200 rounded-lg p-3 max-w-[80%] ml-auto">
-                  <p className="text-sm">Quero importar meu extrato bancário</p>
+                  <p className="text-sm">Gastei 25 reais com uber</p>
                 </div>
                 
                 <div className="bg-primary/10 rounded-lg p-3 max-w-[80%]">
-                  <p className="text-sm">Claro! Você pode enviar seu extrato em PDF ou CSV e eu farei a importação automática para você.</p>
+                  <p className="text-sm">A transação foi adicionada com sucesso! 🚗 Você gastou R$25,00 com Uber. Se precisar de mais alguma coisa, é só avisar!.</p>
                 </div>
                 
                 <div className="bg-gray-200 rounded-lg p-3 max-w-[80%] ml-auto">

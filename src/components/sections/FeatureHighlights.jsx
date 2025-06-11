@@ -13,8 +13,8 @@ const FeatureHighlights = () => {
       id: 1,
       icon: <Clock className="w-12 h-12 text-primary" />,
       title: "Registre em Segundos",
-      description: "Mande foto, áudio ou texto direto no WhatsApp",
-      stat: "3x",
+      description: "Mande foto, áudio, PDF ou texto direto no WhatsApp",
+      stat: "5x",
       statText: "economize tempo"
     },
     {
