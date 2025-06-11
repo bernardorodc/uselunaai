@@ -5,28 +5,8 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-
-  server: {
-    host: true,
-    proxy: {
-      '/': {
-        target: 'http://localhost:4173',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/luna/, ''),
-      },
-    },
-    hmr: {
-      host: '4173-ino6n7no3exkr5thu6w0z-4ce3b20d.manus.computer',
-      protocol: 'wss',
-    },
-  },
-  preview: {
-    host: true,
-    port: 4173,
-    strictPort: true,
-    cors: true,
-    allowedHosts: ['4173-ino6n7no3exkr5thu6w0z-4ce3b20d.manus.computer'],
-  },
+  base: 
+'/uselunaai/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
