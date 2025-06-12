@@ -40,7 +40,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Sua Inteligência Financeira Começa com a{' '}
+              Sua Liberdade Financeira Começa com a{' '}
               <span className="bg-gradient-to-r from-primary to-gray-700 bg-clip-text text-transparent">
                 Luna AI
               </span>
