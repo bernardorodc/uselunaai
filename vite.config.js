@@ -5,8 +5,6 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 
-'/uselunaai/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
