@@ -125,7 +125,7 @@ const PricingSection = () => {
             </div>
             
             <div className="bg-yellow-100 text-yellow-800 text-sm font-medium px-4 py-2 rounded mb-6">
-              Economize R$118,90 Com o Plano Anual!
+              Economize R$208,90 Com o Plano Anual!
             </div>
             
             <ul className="space-y-4 mb-8">
