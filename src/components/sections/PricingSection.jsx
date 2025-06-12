@@ -120,8 +120,8 @@ const PricingSection = () => {
             
             <h3 className="text-2xl font-bold mb-2">Anual</h3>
             <div className="flex items-end mb-6">
-              <span className="text-4xl font-bold text-gray-900">R$239,90</span>
-              <span className="text-gray-500 ml-2">/mês</span>
+              <span className="text-4xl font-bold text-gray-900">R$149,90</span>
+              <span className="text-gray-500 ml-2">1 ano</span>
             </div>
             
             <div className="bg-yellow-100 text-yellow-800 text-sm font-medium px-4 py-2 rounded mb-6">
