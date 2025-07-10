@@ -93,7 +93,7 @@ const PricingSection = () => {
             
             <div className="mt-auto">
               <a 
-                href="https://www.asaas.com/c/q5kp6or6zqewc0zv" 
+                href="https://pay.kiwify.com.br/YhgMqxt" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-gradient w-full block text-center"
@@ -173,7 +173,7 @@ const PricingSection = () => {
             
             <div className="mt-auto">
               <a 
-                href="https://www.asaas.com/c/k113e3g6s3glzi32" 
+                href="https://pay.kiwify.com.br/YhgMqxt" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-gradient w-full block text-center"
